@@ -1,11 +1,11 @@
 HPCDS screens
 ================
 
-Browse screenshots of HPCDS Services, organised by user scenario.
+Browse screenshots of HPCDS prototypes and scenarios.
 
 [http://ministryofjustice.github.io/hpcds-screens/](http://ministryofjustice.github.io/hpcds-screens/index.html)
 
-You can view user journeys for each service as an overview, or select a screen for more detail and then step through them in order.
+You can view prototypes as an overview, or select a screen for more detail and then step through them in order.
 
 ## Running the app locally
 

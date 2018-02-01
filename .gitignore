@@ -1,0 +1,16 @@
+.idea/
+.rvmrc
+.DS_Store
+.ruby-gemset
+custom_plan.rb
+zeus.json
+.powrc
+.powenv
+.Trashes
+.fseventsd
+Icon?
+npm-debug.log
+node_modules/
+test/service/
+test/index.html
+.travis.yml

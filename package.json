@@ -1,0 +1,48 @@
+{
+  "name": "hmrc-screens",
+  "version": "1.0.0",
+  "description": "Prototype for documenting user journeys with screenshots",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ian-leggett/hmrc-screens.git"
+  },
+  "author": "Ian Leggett, Gavin Wye",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ian-leggett/hmrc-screens/issues"
+  },
+  "homepage": "https://github.com/ian-leggett/hmrc-screens#readme",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "add": "node index.js",
+    "test": "tape test/*.js",
+    "test:watch": "nodemon -q --exec 'npm run test' --ignore service/",
+    "lint": "standard --fix"
+  },
+  "standard": {
+    "ignore": [
+      "assets/javascript/handlebars-v1.3.0.js",
+      "test/files/",
+      "service/"
+    ]
+  },
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "cheerio": "^1.0.0-rc.1",
+    "colors": "^1.1.2",
+    "dragula": "^3.7.2",
+    "express": "^4.15.3",
+    "inquirer": "^3.0.6"
+  },
+  "devDependencies": {
+    "moment": "^2.18.1",
+    "nodemon": "^1.11.0",
+    "proxyquire": "^1.8.0",
+    "rimraf": "^2.6.1",
+    "sinon": "^2.3.1",
+    "standard": "^10.0.2",
+    "supertest": "^3.0.0",
+    "tape": "^4.6.3"
+  }
+}

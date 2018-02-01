@@ -3,7 +3,7 @@ HPCDS screens
 
 Browse screenshots of HPCDS Services, organised by user scenario.
 
-[http://ministryofjustice.github.io/hpcds-screens/](http://ministryofjustice.github.io/hpcds-screens/)
+[http://ministryofjustice.github.io/hpcds-screens/](http://ministryofjustice.github.io/hpcds-screens/index.html)
 
 You can view user journeys for each service as an overview, or select a screen for more detail and then step through them in order.
 
@@ -50,7 +50,7 @@ To add a new service:
 
 ### 2. Add your images
 
-Each service has its own folder in [`/service`](https://github.com/ministryofjustice/hpcds-screens/tree/gh-pages/service). Add all your images into the scenario folder in the service's images directory.
+Each service has its own folder in [`/service`](https://github.com/ministryofjustice/hpcds-screens/tree/master/service). Add all your images into the scenario folder in the service's images directory.
  
 Return to the command line and hit enter. Your screenshots will be renamed (to make them web friendly) and ordered chronologically according to when they were created. This means that as you've captured the screens while navigating through a journey, they’ll be in the same order in the app.
 
@@ -73,3 +73,5 @@ Through the UI, you’ll be able to:
 - rearrange the screens 
 - take screenshots 
 
+## Acknowledgements
+- The authors of https://github.com/hmrc/hmrc-screens

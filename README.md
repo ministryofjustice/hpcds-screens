@@ -1,5 +1,5 @@
-HPCDS screens
-================
+HPCDS prototype screens
+=======================
 
 Browse screenshots of HPCDS prototypes and scenarios.
 
